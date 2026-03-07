@@ -2,26 +2,26 @@
 
 <section class="ui left aligned middle aligned segment">
   
-  <h2>Playlist App Dashboard</h2>
+  <h2>Parfume Collection Dashboard</h2>
   
-  {{#unless playlists}}
+  {{#unless parfumeCollection}}
     <h3 class="ui message">
-      Start adding your playlists!
+      Start adding your parfumes!
     </h3>
   {{/unless}}
 
-  {{#each playlists}}
+  {{#each parfumeCollection}}
     <section class="ui left aligned middle aligned segment">
 
       <h3 class="ui header">
-        {{title}}
+        {{name}}
       </h3>
-      {{#if songs}}
-      <p>Total songs :{{songs.length}}</p>
+      {{#if parfumes}}
+      <p>Total Parfumes :{{parfumes.length}}</p>
         {{else}}
-        <p>Empty playlist!</p>
+        <p>Empty parfume collection!</p>
       {{/if}}
-      <a href="/playlist/{{id}}"><i class = "open folder black outline icon"></i></a>
+      <a href="/parfume-collection/{{id}}"><i class = "open folder black outline icon"></i></a>
     </section>
   {{/each}}
 

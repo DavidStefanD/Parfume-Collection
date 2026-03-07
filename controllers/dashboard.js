@@ -1,18 +1,18 @@
 'use strict';
 
 import logger from "../utils/logger.js";
-import playlistStore from "../models/playlist-store.js";
+import parfumeStore from "../models/parfume-store.js";
 
 const dashboard = {
   createView(request, response) {
     logger.info("Dashboard page loading!");
     
     const viewData = {
-      title: "Playlist App Dashboard",
-      playlists: playlistStore.getAllPlaylists()
+      title: "Parfume App Dashboard",
+      parfumeCollection: parfumeStore.getAllParfumes()
     };
     
-    logger.debug(viewData.playlists);
+    logger.debug(viewData.parfumeCollection);
     
     response.render('dashboard', viewData);
   },

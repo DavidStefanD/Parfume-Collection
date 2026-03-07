@@ -21,14 +21,14 @@
     "winston": "^3.19.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.14"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidStefanD/WAD-labs.git"
+    "url": "git+https://github.com/DavidStefanD/Parfume-Collection.git"
   },
   "bugs": {
-    "url": "https://github.com/DavidStefanD/WAD-labs/issues"
+    "url": "https://github.com/DavidStefanD/Parfume-Collection/issues"
   },
-  "homepage": "https://github.com/DavidStefanD/WAD-labs#readme"
+  "homepage": "https://github.com/DavidStefanD/Parfume-Collection#readme"
 }

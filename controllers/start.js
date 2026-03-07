@@ -8,7 +8,7 @@ const start = {
     logger.info("Start page loading!");
     
     const viewData = {
-      title: "Welcome to the Playlist app!",
+      title: "Welcome to My Parfume Collection!",
       info: appStore.getAppInfo()
     };
     
