@@ -7,7 +7,7 @@ const about = {
     logger.info("About page loading!");
    
       const viewData = {
-      title: "Playlist App About",
+      title: "Parfume Collection About",
       emps: empStore.getAppInfo()
     };
     logger.info(viewData.emps)

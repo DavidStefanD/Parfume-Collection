@@ -2,9 +2,12 @@
 
 <section class="ui left aligned middle aligned segment">
 
-  <h2>About the Playlist App</h2>
+  <h2>About the Parfume Collection App</h2>
   <p>
-    More information about the app
+    More information about the Parfume Collection App and myself.
+  </p>
+   <p>
+    I created this app as a project for my Web App Development class. I wanted to create an app that would allow users to keep track of their perfume collection and share it with others. I also wanted to learn more about Handlebars and how to use it to create dynamic web pages, This is just the first part as a lot of features are not introduced yet.
   </p>
 <div class="ui cards">
 
@@ -17,7 +20,7 @@
     <div class="content">
       <a class="header">{{name}}</a>
       <div class="meta">
-        <span class="date">Joined in {{joined}}</span>
+        <span class="date">Born in {{joined}}</span>
       </div>
       <div class="description">
         {{name}} is an {{job}} living in {{city}}.
@@ -26,31 +29,10 @@
     <div class="extra content">
       <a>
         <i class="user icon"></i>
-        {{mates}} contacts
+        {{mates}} Years Old
       </a>
     </div>
   </div>
 {{/each}}
 </div>
-{{!-- <div class="ui centered card">
-  <div class="image">
-    <img src="{{emps.image}}">
-  </div>
-  <div class="content">
-    <a class="header">{{emps.fullname}}</a>
-    <div class="meta">
-      <span class="date">Joined in {{emps.joined}}</span>
-    </div>
-    <div class="description">
-      {{emps.name}} is an {{emps.job}} living in {{emps.city}}.
-    </div>
-  </div>
-  <div class="extra content">
-    <a>
-      <i class="user icon"></i>
-      {{emps.mates}} contacts
-    </a>
-  </div>
-</div> --}}
-
 </section>
