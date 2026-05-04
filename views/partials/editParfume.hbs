@@ -1,0 +1,30 @@
+<form class="ui stacked segment form" method="POST" action="/parfume-collection/{{collectionId}}/updateParfume/{{id}}" >
+  <tr class="hide" id="edit{{@index}}">
+    <td>
+      <span class="ui input">
+        <input type="text" name="name" autofocus required
+          title="Please include a valid Parfume Name" 
+		  placeholder="Parfume Name" value="{{name}}">
+      </span>
+    </td>
+    <td>
+      <span class="ui input">
+        <input type="text" name="brand" required 
+               title="Please include a valid Brand" 
+			   placeholder="Brand" value="{{brand}}">
+      </span>
+    </td>
+    <td class="center aligned">
+      <button type = "reset" class = "editSubmit"
+	          title="Exit without saving">
+        <i class="ui undo icon"></i>
+      </button>
+    </td>
+    <td class="center aligned">
+      <button type = "submit" class = "editSubmit" id="hideEdit{{@index}}"
+	          title="Save changes">
+        <i class="ui save icon"></i>
+      </button>
+    </td>
+  </tr>
+</form>

@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "e695e132-99fa-4380-b094-71554516032a"
+    },
+    {
+      "firstName": "South",
+      "lastName": "Technological University (Waterford City, Co. Waterford)",
+      "email": "20113226@setu.ie",
+      "password": "Davidwardul123!",
+      "id": "b5023060-a121-4fbb-bfe2-f7680a901fe7"
+    },
+    {
+      "firstName": "Alexandra",
+      "lastName": "Vega",
+      "email": "dadadadad@fdfsa.bg",
+      "password": "Davidwardul123!",
+      "id": "aaa29986-ac6d-436d-ba29-7096f53214aa"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "df0a7f1b-8dd4-4c44-9b79-0620687af900"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "d97813a5-ac6f-458a-b358-0bd02b3ef3b0"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "51bb9c6f-d629-4bfa-87f5-e3ff1f9c55fa"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "7aacb679-4a16-479b-84f3-2ce28f175378"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "ea5c6e7f-454e-405d-860c-11f861845461"
+    },
+    {
+      "firstName": "David Stefan",
+      "lastName": "Draghici",
+      "email": "davidwardul@gmail.com",
+      "password": "Davidwardul123!",
+      "id": "2501bb52-a26e-431a-a421-01329d1c190a"
+    }
+  ]
+}

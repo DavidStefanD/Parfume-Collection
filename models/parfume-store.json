@@ -1,68 +1,50 @@
 {
   "parfumeCollection": [
     {
-      "id" : "01",
-      "name": "Arabic Parfumes",
+      "userid": "e695e132-99fa-4380-b094-71554516032a",
+      "id": "43d4de54-56a8-4b92-8f46-a16116b79b34",
+      "name": "Future Parfumes",
+      "rating": 2,
+      "date": "2026-05-04T16:19:07.914Z",
       "parfumes": [
         {
-          "id" : "04",
-          "name": "El Noble Wazeer",
+          "id": "e6c88207-0c32-4317-9f2e-423901eff186",
+          "name": "Future Parfumes",
           "brand": "Lattafa"
-        },
-        {
-          "id" : "05",
-          "name": "El Noble Ameer",
-          "brand": "Lattafa"
-        },
-        {
-          "id" : "06",
-          "name": "Pride Vintage Radio",
-          "brand": "Lattafa"
-        },
-      
-        {
-          "id" : "07",
-          "name": "Liam Gray",
-          "brand": "Lattafa"
-        },
-        {
-          "id" : "08",
-          "name": "His Confession",
-          "brand": "Lattafa"
-        },
-        {
-          "id" : "09",
-          "name": "Hawas Viper",
-          "brand": "Rasasi"
         }
       ]
     },
     {
-      "id" : "02",
-      "name": "Designer Parfumes",
-      "parfumes": [
-        {
-          "id" : "10",
-          "name": "Scandal",
-          "brand": "Jean Paul Gaultier"
-        },
-        {
-          "id" : "11",
-          "name": "Guilty",
-          "brand": "Gucci"
-        }
-      ]
+      "userid": "e695e132-99fa-4380-b094-71554516032a",
+      "id": "28925224-d691-4b42-be25-2f91a133a0ab",
+      "name": "El Noble Wazeer",
+      "rating": 0,
+      "date": "2026-05-04T16:19:26.608Z",
+      "parfumes": []
     },
     {
-      "id" : "03",
-      "name": "Random Parfumes",
-      "parfumes": [
-        {
-          "id" : "12",
-          "name": "Veritas",
-          "brand": "Lidl? Not sure"
-        }
-      ]
+      "userid": "e695e132-99fa-4380-b094-71554516032a",
+      "id": "14acd65b-9003-432c-a192-8409b6abbf89",
+      "name": "Future Parfumes",
+      "rating": 3,
+      "date": "2026-05-04T16:29:12.024Z",
+      "parfumes": []
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "d9764de0-a3d5-4c12-9c41-b72daf7bb0c1",
+      "name": "Alexandra",
+      "rating": 5,
+      "date": "2026-05-04T16:35:28.763Z",
+      "parfumes": []
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "43c1d13c-9aaa-4278-a100-b1f09d4415de",
+      "name": "Habi",
+      "rating": 1,
+      "date": "2026-05-04T16:36:21.826Z",
+      "parfumes": []
     }
   ]
 }

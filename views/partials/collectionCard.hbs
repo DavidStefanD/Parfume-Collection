@@ -1,0 +1,52 @@
+<section class="ui left aligned middle aligned segment">
+
+  {{#if picture}}
+    <div class="image">
+      <img src="{{picture.url}}">
+    </div>
+  {{/if}}
+
+  <h3 class="ui header">
+    {{uppercase name}}
+  </h3>
+
+  {{#if date}}
+    <br>
+    <i class="calendar alternate outline icon"></i>
+    Created on <i>{{formatDate date}}</i>
+  {{/if}}
+
+  {{#if parfumes}}
+    <p>
+      <i class="flask icon"></i>
+      Total parfumes: {{parfumes.length}}
+    </p>
+  {{else}}
+    <p>
+      Empty parfume collection!
+    </p>
+  {{/if}}
+
+  {{#if rating}}
+    <p>
+      <span
+        class="ui orange disabled rating"
+        data-icon="star"
+        data-rating="{{rating}}"
+        data-max-rating="5">
+      </span>
+
+      <span style="color: rgb(255, 132, 0); font-size: 90%; font-style: italic">
+        {{highlightPopular rating}}
+      </span>
+    </p>
+  {{/if}}
+
+  <a href="/parfume-collection/{{id}}">
+    <i class="ui open folder outline black icon"></i>
+  </a>
+  <a href="/dashboard/deletecollection/{{id}}">
+    <i class="ui trash black icon"></i>
+  </a>
+
+</section>

@@ -1,0 +1,82 @@
+{{> menu id="stats"}}
+
+<section class="ui center aligned middle aligned segment">
+
+  <h2>Parfume Collection Statistics</h2>
+
+  <h3 class="ui header">
+    App Statistics
+  </h3>
+  <p>
+    The parfume collection app now contains: 
+  </p>
+  {{#with stats}}
+   <div class="ui center aligned grid">
+    
+    <div class = "ui sixteen wide column">
+      
+        <div class="ui centered one statistics">
+          <div class="ui statistic">
+            <div class="value">
+              <i class="list icon"></i> 
+            </div>
+            <div class="label">
+              {{displayNumCollection}} collections
+            </div>
+          </div>
+
+          <div class="ui orange statistic">
+            <div class="value">
+              <i class="flask icon"></i> 
+            </div>
+            <div class="label">
+              {{displayNumParfumes}} parfumes
+            </div>
+          </div> 
+		  
+          <div class="ui orange statistic">
+            <div class="value">
+              <i class="balance scale icon"></i> 
+            </div>
+            <div class="label">
+              Average parfumes per collection: {{displayAverage}}
+            </div>
+          </div>    
+		  
+        </div> 
+    </div>
+   </div> 
+   <div class="ui sixteen wide column">
+    <br>    
+    <div class="ui centered one statistics">
+        <div class="ui orange statistic">
+          <div class="value">
+            <i class="star icon"></i>
+          </div>
+          <div class="label">
+            Highest Rated Collections: {{highest}} stars
+            <div class="ui center aligned">
+              <table class="ui celled table center aligned">
+                {{#each displayFav}}
+                <tr>
+                  <td>{{this}}</td>
+                </tr>
+                {{/each}}
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui orange statistic">
+          <div class="value">
+            <i class="dot circle outline icon"></i>
+          </div>
+          <div class="label">
+            Average Rating: {{displayAvgRating}}
+          </div>
+        </div>
+    </div>
+</div>
+  
+  {{/with}}
+</section>

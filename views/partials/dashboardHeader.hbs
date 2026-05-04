@@ -1,0 +1,29 @@
+<section class="dashboard-header">
+
+  <h2 class="title">Parfume Collection Dashboard</h2>
+
+    <form action="/searchCategory" method="GET" class="ui form">
+
+      <div class="ui inline field">
+        <input type="text" name="searchTerm" placeholder="Search by name ..." value="{{search}}">
+      </div>   
+
+      <div class="field">
+          <label>Sort by:</label>
+          <select class="ui dropdown" name="sort" onchange="this.form.submit()">
+            <option value="name" {{#if nameSelected}}selected{{/if}}>Name</option>
+            <option value="rating" {{#if ratingSelected}}selected{{/if}}>Rating</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Order:</label>
+          <select class="ui dropdown" name="order" onchange="this.form.submit()">
+            <option value="asc" {{#if ascSelected}}selected{{/if}}>↑</option>
+            <option value="desc" {{#if descSelected}}selected{{/if}}>↓</option>
+          </select>
+        </div>
+      </div>
+    </form>
+
+</section>

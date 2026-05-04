@@ -1,8 +1,15 @@
 {{> menu}}
-
+{{#with singleParfume}}
 <section class="ui center aligned middle aligned scrolling segment">
   <h2 class="ui header">
-    {{singleParfume.name}}
+    {{name}}
   </h2>
   {{> listparfumes}}
 </section>
+<section class="ui center aligned middle aligned segment">
+
+    {{> addparfumes}}
+
+  </section>
+
+{{/with}}

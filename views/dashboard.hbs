@@ -1,28 +1,4 @@
 {{> menu id="dashboard"}}
 
-<section class="ui left aligned middle aligned segment">
-  
-  <h2>Parfume Collection Dashboard</h2>
-  
-  {{#unless parfumeCollection}}
-    <h3 class="ui message">
-      Start adding your parfumes!
-    </h3>
-  {{/unless}}
-
-  {{#each parfumeCollection}}
-    <section class="ui left aligned middle aligned segment">
-
-      <h3 class="ui header">
-        {{name}}
-      </h3>
-      {{#if parfumes}}
-      <p>Total Parfumes :{{parfumes.length}}</p>
-        {{else}}
-        <p>Empty parfume collection!</p>
-      {{/if}}
-      <a href="/parfume-collection/{{id}}"><i class = "open folder black outline icon"></i></a>
-    </section>
-  {{/each}}
-
-</section>
+{{> listcollections}}
+{{> addcollection}}
