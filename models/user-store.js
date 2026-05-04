@@ -21,7 +21,7 @@ const userStore = {
   },
   
   addUser(user) {
-    this.store.addCollection(this.collection, user);
+    this.store.addcollection(this.collection, user);
   },
 
 };
